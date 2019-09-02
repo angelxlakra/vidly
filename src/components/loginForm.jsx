@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import Input from "./common/input";
+import React from "react";
 import Form from "./common/form";
 import Joi from "joi-browser";
 
@@ -9,10 +8,7 @@ class LoginForm extends Form {
       username: "",
       password: ""
     },
-    errors: {
-      username: "",
-      password: ""
-    }
+    errors: {}
   };
 
   schema = {
