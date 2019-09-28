@@ -7,7 +7,7 @@ export function getMovies() {
 }
 
 export function deleteMovie(movieId) {
-  http.delete(apiEndPoint + "/" + movieId);
+  return http.delete(apiEndPoint + "/" + movieId);
 }
 
 export function saveMovie(movie) {
